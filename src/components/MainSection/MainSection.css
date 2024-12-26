@@ -1,0 +1,37 @@
+.hero_section{
+    background-image: url("leaf.jpg");
+    height: 92vh;
+    background-size: cover;
+    color: #e8e8ae;
+}
+.hero_section_content{
+    padding: 100px 0 0 200px;
+    font-family:sans-serif
+}
+.hero_section_h3{
+    font-size: 40px;
+}
+.hero_section_h1{
+    font-size: 60px;
+}
+.hero_section_h4{
+    font-size: 35px;
+}
+.hero_section_button{
+    height: 50px;
+    width: 200px;
+    background-color: #e8e8ae;
+    color: #2d2c2c;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.1s ease-in;
+}
+
+/* hovers */
+
+.hero_section_button:hover{
+    background-color: #2d2c2c;
+    color: #e8e8ae;
+    font-size: 25px
+}
