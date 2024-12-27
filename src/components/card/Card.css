@@ -1,0 +1,24 @@
+.card{
+    background-color: #dce4e8;
+    padding: 20px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    /* box-shadow: 10px 10px #e4e5e5; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-width: 120px;
+    min-height: 180px;
+    margin: 0 20px;
+}
+.title{
+    color: #1f1f1f;
+    font-size: 17px;
+    font-weight: 800;
+}
+.image{
+    background-size: cover;
+    height: 140px;
+    width: 110px;
+}

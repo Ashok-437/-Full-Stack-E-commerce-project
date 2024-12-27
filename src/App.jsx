@@ -1,6 +1,7 @@
 import './App.css'
-import MainSection from './components/MainSection/MainSection'
+import MainSection from './components/mainSection/MainSection'
 import Navigation from './components/navigation/Navigation'
+import NewArrivel from './components/newArrivel/NewArrivel'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navigation />
       <MainSection/>
+      <NewArrivel/>
     </>
     
   )

@@ -1,0 +1,20 @@
+.new-arrivel{
+    max-width: 100%;
+    overflow: auto;
+}
+.new-arrivel-bg{
+    padding: 40px 200px 40px 200px;
+    background-color: #f1f1c6;
+}
+.new-arrivel-headding{
+    font-size: 40px;
+    color: #242424;
+}
+.new-arrivel-container{
+    display: flex;
+    padding: 20px;
+    width: max-content;
+}
+.new-arrivel::-webkit-scrollbar{
+    display: none;
+}
